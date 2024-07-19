@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vilasha's Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>VILASHA'S POTRFOLIO</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <h1>Welcome to My Portfolio</h1>
+        <p>Hi, I'm [Vilasha Bahariya], a [software developer]</p>
+    </section>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>[I am vilasha bagariya, a passionate and dedicated software developer student currently 
+        studying at the National institute of Technology (NIT)Delhi.I have interest in web development.
+        through my academic journey and personal projects,i have gained expriences in technologies such
+        as HTML, CSS,C,C++,JavaScript,among others.]</p>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project">
+            <h3>Project 1</h3>
+            <p>[Instant Messaging App
+                Developed a robust instant messaging app with real time text messaging,
+                multimedia shearing,and group chat capabilities.Implemented end to end 
+                encryption for enhanced security and ensured a user-friendly experience 
+                through iterative design improvements. ]</p>
+        </div>
+        <div class="project">
+            <h3>Project 2</h3>
+            <p>[Student Menagement System
+                Created a comprehensive Student Management System to streamline 
+                administrative tasks.The system features student registration ,
+                attendence tracking,grede management,and report generation.]</p>
+        </div>
+        <div class="project">
+            <h4>Project 3</h4>
+            <p>[E-learning website
+                developed an e-learning Website featuring diverse cources,interative 
+                quizzes,and progress tracking]</p>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <p> <i class=" bi-envelope">221220066@nitdelhi.ac.in</i></p>
+            <p><i class="bi-linkedin">https://www.linkedin.com/in/vilasha-bagariya-364285262</i></p>
+            
+        <form action="submit_form.php" method="POST">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">Send</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 [Vilasha Bagariya]. All rights reserved.</p>
+    </footer>
